@@ -1,0 +1,115 @@
+*,html,body
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 3000px;
+}
+header
+{
+    background-color: black;
+    height: 112px;
+    line-height: 112px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul
+{
+    list-style: none;
+}
+ul li
+{
+    display: inline-block;
+}
+.logo img
+{
+    height: 90px;
+    margin-top: 10px;
+}
+header nav
+{
+    float: right;
+}
+header nav ul li a
+{
+    padding-right: 30px;
+    font-weight: 300;
+    color: white;
+    font-family: fantasy;
+    transition: all 0.5s ease-in;
+        
+}
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+.img1
+{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url(..//image/Slider1.jpg);
+    background-size: 100% 100%;
+}
+.img2
+{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url(..//image/Slider2.jpg);
+    background-size: 100% 100%;
+}
+.img3
+{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url(..//image/Slider3.jpg);
+    background-size: 100% 100%;
+}
+
+.slider,.slider ul,.slider ul li
+{
+    height:710px;
+    width:100%;
+    color:white;
+    text-align: center;
+    
+}
+.slider span
+{
+    color: red;
+    font-family: fantasy;
+    opacity: inherit;
+    font-size: 30px;
+}
+.slider h2
+{
+    color: white;
+    font-family: fantasy;
+    opacity: inherit;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.slider a
+{
+    padding: 10px 30px;
+}
+.slider a.btn-half
+{
+    background-color: red;
+    color:white;
+    font-size: 12px;
+    margin-left: 90px;
+}
+.slider a.btn-half:hover
+{
+    opacity: 0.8;
+    transition: 0.5s ease-in;
+}
+.slider p
+{
+    font-family: cursive;
+    font-size: 20;
+    margin-left: 10px;
+}
+.slider i
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
