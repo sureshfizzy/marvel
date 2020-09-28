@@ -9,12 +9,17 @@ body
 }
 header
 {
-    background-color: black;
     height: 112px;
     line-height: 112px;
     position: fixed;
     z-index: 1;
     width: 100%;
+}
+.secondary
+{
+    background-color: black;
+    transition: 0.5s ease-in;
+    box-shadow: 0px 7px 10px 0px;
 }
 ul
 {
@@ -28,6 +33,7 @@ ul li
 {
     height: 90px;
     margin-top: 10px;
+    position: relative;
 }
 header nav
 {
@@ -112,4 +118,265 @@ header nav ul li a:hover
 {
     font-size: 30px;
     margin-bottom: 20px;
+}
+.intro-area
+{
+    position: relative;
+    padding: 100px 0px;
+    background-image: url(..//image/Section2.jpg);
+    background-size: 150%;
+    background-position: 250;
+    text-align: center;
+    color: red;
+    font-family: fantasy;
+}
+.sub-heading
+{
+    position: relative;
+    margin-bottom: 5%;
+}
+.sub-heading:before
+{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: :50%;
+    height: 2%;
+    width: 4%;
+    margin-left: 20%;
+    background-color: red;
+    z-index: 1;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+}
+.sub-heading:hover:before
+{
+    width: 24%;
+    margin-left: 120px;
+}
+.sub-heading:after
+{
+    content:"";
+    position: absolute;
+    top: 100%;
+    left: :50%;
+    height: 2%;
+    width: 18%;
+    margin-left: -33%;
+    background-color: darkgrey;
+}
+.sub-heading p
+{
+    color: white;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    line-height: 24px;
+    position: relative;
+    letter-spacing: 0.025em;
+}
+.intro-block
+{
+    position: relative;
+    background: white;
+    color: black;
+    background-image: url(..//image/intro-1.jpg);
+    margin: 20px 25px 0px;
+    padding: 75px 25px 80px;
+}
+.intro-block:hover,.intro-block:active
+{
+    opacity: 50%;
+    transition: 0.5s ease-in;
+}
+.intro-block .intro-icon
+{
+    position: absolute;
+    top:-31px;
+    left: 40%;
+    margin left: -31px;
+}
+.intro-block .fa
+{
+    width: 63px;
+    height: 63px;
+    font-size: 30px;
+    color:"red";
+    box-shadow: 0px 0px 0px 10px black;
+    border-radius: 50%;
+    line-height: 2;
+    background-color: red;
+    
+}
+.intro-block:hover .fa,.intro-block:active .fa
+{
+    background: red;
+    color: white;
+    box-shadow: 0px 0px 0px 10px black;
+    
+}
+.intro-block h4
+{
+    color:red;
+    font-size:18;
+    margin-bottom: 10px;
+}
+.intro-block p
+{
+    font-size: 13;
+    color: balck;
+    font-family: fantasy;
+}
+.feature-mockup
+{
+   margin-top: 120px;
+}
+.feature-area
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),url(..//image/Section3.jpg);
+}
+.sec h2
+{
+    color: red;
+}
+.sec3-title p,.sec3 p
+{
+    color: white;
+}
+.sec3 h2
+{
+    color: red;
+}
+.single-feature
+{
+    position: relative;
+    width: 325px;
+    float: left;
+    padding: 50px 0px;
+    text-align: center;
+    border-right: 1px solid purple;
+    border-bottom: 1px solid purple;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+}
+.feature-block:after
+{
+    clear: both;
+}
+.feature-block:after
+{
+    content: "";
+    display: table;
+}
+.featured-icon:after
+{
+    display: inline-block;
+    margin: 10px;
+}
+.single-feature i.fa
+{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: white;
+    transition: 0.3s ease-in;
+}
+.feature-block:hover .single-feature
+{
+    border-color: white;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;    
+}
+.single-feature i.fa:hover 
+{
+    border: 2px solid white;
+    background: red;
+    color: black;
+}
+.single-feature:nth-of-type(even)
+{
+    border-right: none;
+}
+.single-feature:nth-last-child(2)
+{
+    border-bottom: none;
+}
+.single-feature:last-child
+{
+    border-bottom: none;
+}
+.feature-area
+{
+    padding: 100px 0px;
+}
+.more-feature-area .sec .sub-heading p
+{
+    color: black;
+}
+.more-feature-area
+{
+    padding: 100px 0px;
+}
+.feature-list ul
+{
+    list-style: none;
+}
+.feature-list li
+{
+    padding-left: 80px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.feature-list li:hover i
+{
+    color: white;
+    background: red;
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -ms-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+.feature-icon
+{
+    left: 0;
+    position: absolute;
+}
+.feature-icon i
+{
+    width: 63px;
+    height: 63px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    line-height: 63px;
+}
+.feature-details h2
+{
+    font-weight: 700;
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: red;
+}
+.feature-details p
+{
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+}
+.more-feature-area img
+{
+    margin-left: 70px;
 }
